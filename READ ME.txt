@@ -1,0 +1,116 @@
+---------Melik KUTLUAY---------
+-----------15253036------------
+
+KULLANILAN TEKNOLOJÝLER:
+-Tasarým için HTML ve CSS kullanýlmýþtýr.
+-Veri tabaný suncusu için xampp kullanýlmýþtýr.
+-Programlama dili olarak ise Golang kulllanýlmýþtýr.
+
+
+XAMPP Apache + MariaDB + PHP + Perl version:5.6.40, 7.1.26, 7.2.15 & 7.3.2
+GOlang version: go1.11.5
+
+BÝRÝNCÝ ADIM ->Golang indirme
+
+->Browserýnýz da adress çubuðuna "https://golang.org/dl/" yazýnýz.
+
+->Gelen sayfada kullanýlan iþletim sistemi seçerek indiriniz.
+
+->Ýndirilen dosyayý çalýþtýrýnýz.
+
+->Kurma aþamasýnda Next adýmlarýný takip ederek kurulumu tamamlayýnýz.
+
+ÝKÝNCÝ ADIM ->Git indirme
+
+->Browserýnýzda adress çubuðuna"https://git-scm.com/downloads" yazýnýz.
+
+->Gelen download sayfasýnda kullanýlan iþletim sistemini seçerek indiriniz.
+
+->Ýndirilen dosyayý çalýþtýrýnýz.
+
+->Kurulum aþamasýnda Next adýmlarýný takip ederek kurulumu tamamlayýnýz. 
+
+ÜÇÜNCÜ ADIM ->Xampp indirme
+
+->Browserýnýzda adress çubuðuna "https://www.apachefriends.org/tr/index.html"  yazýnýz.
+
+->Gelen download sayfasýnda kullanýlan iþletim sistemini seçerek indiriniz.
+
+->Kurulum aþamasýnda Next adýmlarýný takip ederek kurulumu tamamlayýnýz. 
+
+DÖRDÜNCÜ ADIM ->Xammp kullanýmý,veri tabaný iþlemleri
+
+->Kurulan Xampp'yi çalýþtýrýn ve gelen arayüzde Apache ve Mysql sunucularýný start'a basarak çalýþtýrýnýz.
+
+->Browserýnýzýn adres çubuðua "http://localhost/phpmyadmin/"
+yazýnýz.
+
+->Gelen sayfada sol tarafta bulunan veri tabaný oluþturma kýsmýnda bulunan "Yeni" butonuna týklayýnýz.
+
+->Gelen sayfada Veri tabanlarý adý altýnda "Veritabýný adý" yazan input kýsmýna "cryptology" yaarak "Oluþtur" butonuna týklayarak cryptology adýnda bir veri tabaný oluþturunuz.
+
+->Açýlan ekranda üst barda bulunan "Ýçe aktar" butonuna týklayýnýz.
+
+->Açýlan ekranda "Dosya Seç" butonuna basarak proje dosyasý içinde size verilmiþ olan "cryptology" adýnda ki veri tabaný dosyasýný seçip aç'a týklayýnýz.
+
+->Seçme iþlemini yaptýktan sonra sayfayý aþaðý kaydýrarak en alttaki "Git" butonuna týklayýnýz.
+
+->Veri tabaný import edilerek güncel hale getirilmiþtir.
+
+BEÞÝNCÝ ADIM -->Kütüphane import etme,proje çalýþtýrma
+
+->Kullanmýþ olduðunuz iþletim sistemine göre teminal,cmd yada gitbash kullanarak Proje dosyasýnýn bulunmuþ olduðu dosya dizinine giderek projenin içine giriniz.
+
+->Proje dizinin içinde olduðunuza emin olduktan sonra teminal,cmd yada gitbash console ekranýna "go get -u github.com/go-sql-driver/mysql" yazarak enter tuþuna basýnýz ve Mysql kütüphanesini projenize dahil ediniz.
+
+->Ayný þekilde proje dosya dizini içinde terminal,cmd yada git bash consol ekranýna bu defa "go run gotut.go" yazarak projeyi çalýþtýrýnýz. 
+
+->Ýþletim sistemine göre deðiþiklik gösterebilen sunucu eriþim izini istenmektedir izin vere týklayarak sunucunun ayaklanmasýný saðlayýnýz.
+
+ALTINCI ADIM ->Proje'yi görüntðleme
+
+->Browserýnýzýn arama çubuðuna "localhost:8080" yazarak projeyi çalýþýr vaziyet de görüntüleyiniz. 
+
+->Proje adýmlarýný bitirmiþ olduk.
+
+
+2.Hafta ADIMLARI
+
+YEDÝNCÝ ADIM->Kriptoloma iþlemi 
+
+->Kurulan Xampp'yi çalýþtýrýn ve gelen arayüzde Apache ve Mysql sunucularýný start'a basarak çalýþtýrýnýz.
+
+->Browserýnýzýn adres çubuðua "http://localhost/phpmyadmin/"
+yazýnýz.
+
+->Gelen sayfada sol tarafta bulunan veri tabaný oluþturma kýsmýnda bulunan "Yeni" butonuna týklayýnýz.
+
+->Gelen sayfada Veri tabanlarý adý altýnda "Veritabýný adý" yazan input kýsmýna "cryptology" yaarak "Oluþtur" butonuna týklayarak cryptology adýnda bir veri tabaný oluþturunuz.
+
+->Açýlan ekranda üst barda bulunan "Ýçe aktar" butonuna týklayýnýz.
+
+->Açýlan ekranda "Dosya Seç" butonuna basarak proje dosyasý içinde size verilmiþ olan "cryptology" adýnda ki veri tabaný dosyasýný seçip aç'a týklayýnýz.
+
+->Seçme iþlemini yaptýktan sonra sayfayý aþaðý kaydýrarak en alttaki "Git" butonuna týklayýnýz.
+
+->Veri tabaný import edilerek güncel hale getirilmiþtir.
+
+SEKÝzÝNCÝ ADIM
+
+
+->Kullanmýþ olduðunuz iþletim sistemine göre teminal,cmd yada gitbash kullanarak Proje dosyasýnýn bulunmuþ olduðu dosya dizinine giderek projenin içine giriniz.
+
+->Proje dizinin içinde olduðunuza emin olduktan sonra teminal,cmd yada gitbash console ekranýna "go run gotut.go" yazarak projeyi çalýþtýrýnýz. 
+
+->Ýþletim sistemine göre deðiþiklik gösterebilen sunucu eriþim izini istenmektedir izin vere týklayarak sunucunun ayaklanmasýný saðlayýnýz.
+
+DOKUZUNCU ADIM
+
+->Browserýnýzýn arama çubuðuna "localhost:8080" yazarak projeyi çalýþýr vaziyet de görüntüleyiniz. 
+
+->Proje adýmlarýný bitirmiþ olduk.
+
+->Uyarý Ýstenilen tüm seneryolar console ekranýndan incelenebilinir ve takip edilebilinir . Web sitesi üzerinde de ayný þekilde istenilen sonuçlara eriþim saðlanabilinir .
+
+
+
